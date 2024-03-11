@@ -1,0 +1,119 @@
+.outer{
+    height: 100%;
+    width: 1000pt;
+    background-color: yellowgreen;
+}
+.top{
+    height: 57pt;
+    width: 1000pt;
+    background-color:blanchedalmond;
+}
+.top img{
+    float: left;
+    height: 57pt;
+    width: 140pt;
+}
+.top h1{
+    float: left;
+    font-size: 42pt;
+    margin-top: 2pt;
+    font-family: sans-serif;
+    transform: translate(10px, 10px);
+}
+.top ul{
+    float: right;
+    list-style-type: none;
+    font-size: 0.5cm;
+    margin-right: 25pt;
+    font-family: monospace;
+    text-align: justify;
+}
+.top ul li{
+    margin: 3pt 7pt
+}
+.banner{
+    height: 400pt;
+    width: 1000pt;    
+}
+#nav 
+{
+    height: 40px;
+    min-width: 450px;
+    background-color: indigo;    
+}
+#nav ul{
+    display: none;
+    background-color: #f90;
+    position: absolute;
+    top: 100%;
+}
+#nav li:hover ul{
+    display: block;
+}
+#nav, #nav ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+#nav{
+    height: 30px;
+    min-width: 450px;
+    background-color: indigo;
+    padding-left: 25px;
+}
+#nav li{
+    float: left;
+    position: relative;
+    height: 100%;
+}
+#nav li a{
+    display: block;
+    padding: 5px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: azure;
+    margin: 2pt 35pt;
+}
+#nav ul li{
+    float: left;
+}
+#nav li:hover{
+    background-color: maroon;
+}
+.work{
+    height: 600pt;
+    width: 1000pt;
+    background-color: aquamarine;
+}
+
+.footer{
+    height: 90pt;
+    width: 1000pt;
+    background-color: greenyellow;
+}
+
+.footer ol{
+    float: left;
+    list-style-type: none;
+    margin: 10pt;
+    font-size: 1.4em;
+    font-family: monospace;
+    text-align: justify;
+}
+.footer ul{
+    float: right;
+    list-style-type: none;
+    display: inline-flex;
+}
+.footer ul li{
+    padding: 1pt 15pt;
+}
+.footer ul li h3{
+    font-size: 1.3em;
+}
+.footer ul li img{
+    height: 27pt;
+    border-radius: 25%;
+    margin: 10pt 1pt;
+}
